@@ -185,6 +185,7 @@ void loop() {
     delay(changeLight);
     buttonStatus = 0;
   } else {
+    digitalWrite(redLedPedestrianPin, HIGH);
     digitalWrite(greenLedPin, HIGH);
     digitalWrite(yellowLedPin, LOW);
     digitalWrite(redLedPin, LOW);
